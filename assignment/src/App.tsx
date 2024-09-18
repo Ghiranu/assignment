@@ -106,12 +106,7 @@ function App() {
     <div className="tag-input-container">
       <div
         contentEditable
-        style={{
-          border: "1px solid black",
-          padding: "10px",
-          minHeight: "50px",
-          width: "500px",
-        }}
+        className="input-container"
         ref={divRef}
         onMouseUp={saveCursorPosition}
         onKeyUp={saveCursorPosition}
